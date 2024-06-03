@@ -36,13 +36,19 @@ selenium-framework/
 │   │   │   └── com/
 │   │   │       └── yourcompany/
 │   │   │           ├── base/
+│   │   │           │   └── BaseTest.java
 │   │   │           ├── pages/
+│   │   │           │   └── LoginPage.java
 │   │   │           ├── tests/
+│   │   │           │   └── LoginTest.java
 │   │   │           └── utils/
+│   │   │               └── ExcelUtil.java
 │   ├── test/
 │       └── java/
 │           └── com/
 │               └── yourcompany/
 │                   └── tests/
+│                       └── LoginTest.java
 ├── pom.xml
 └── README.md
+
