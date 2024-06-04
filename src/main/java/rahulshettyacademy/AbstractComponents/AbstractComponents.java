@@ -56,6 +56,7 @@ public class AbstractComponents {
 	{
 		cartHeader.click();
 		CartPage cartPage=new CartPage(driver);
+		System.out.println("Git Demo");
 		return cartPage;
 	}
 	
@@ -63,6 +64,7 @@ public class AbstractComponents {
 	{
 		orderHeader.click();
 		OrderPage orderPage=new OrderPage(driver);
+		System.out.println("Git Demo");
 		return orderPage;
 	}
 }
